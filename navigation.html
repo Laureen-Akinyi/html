@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    
+
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: gray;
+    }
+    li {
+        float: left;
+    }
+     li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+     }
+     li a:hover {
+        background-color: greenyellow;
+
+     }
+
+     .city {
+        background-color: tomato;
+        color: white;
+        border: 2px;
+        margin: 20px;
+        padding: 20px;
+    
+     }
+     .note {
+        font-size: 120px;
+        color: red;
+     }
+     #myheader {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+     }
+</style>
+</head>
+<body>
+    <h2>Navigation Menu</h2>
+    <p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+    <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#News">News</a></li>
+        <li><a href="Contact">Contact</a></li>
+        <li><a href="about">About</a></li>
+    </ul>
+
+    <h2>Ordered List with type and start</h2>
+    <p>Why are the list in a line</p>
+
+    <ol style="list-style-type: circle;">
+        <li>Salame</li>
+        <li>Ethiopia</li>
+        <li>Deshen</li>
+    </ol>
+    <br>
+
+    <ol type="1">
+        <li>Injira</li>
+        <li>Moringa</li>
+        <li>Peas</li>
+    </ol>
+    <br>
+
+    <ol start="11">
+        <li>Kenya</li> <br>
+        <li>Tanzania</li> <br>
+        <li>Uganda</li>
+    </ol>
+    <br>
+    <!-- The HTML <samp> element is used to define sample output from a computer program. The content inside is displayed in the browser's default monospace font. -->
+    <p>Message from my computer</p>
+    <p><samp>File not found. <br>Press F1 to continue</samp></p>
+
+
+<!-- <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe> -->
+<br>
+
+    <h2>Block-level elements</h2>
+
+    <p>A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+        Two commonly used block elements are: p and div.</p>
+
+        <div style="background-color: black;color: aliceblue;padding: 20px;">
+            <h2>London</h2>
+            <p>London is the capital city of <span style="color: green; font-weight: bold;">England</span> It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        </div>
+
+
+        <div class="city">
+            <h2>London</h2>
+            <p>London is the capital of England.</p>
+        </div>
+
+        <div class="city">
+            <h2>Paris</h2>
+            <p>Paris is the capital of France.</p>
+        </div>
+
+        <div class="city">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+
+        <h1>My <span class="note">Important</span> Heading</h1>
+
+        <h2 id="myheader">Learning about the ID attribute</h2>
+
+</body>
+</html>

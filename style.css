@@ -1,0 +1,39 @@
+body {
+    background-color: powderblue;
+
+}
+
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+p {
+    color: brown;
+    font-family: courier;
+    font-size: 160%;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* border-radius: 10px; */
+    /* border-style: dotted; */
+
+}
+
+th, td {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  /* padding-left: 30px; */
+  padding-right: 10px;
+}
+table {
+    border-spacing: 30px;
+}
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+/* tr:hover {background-color: yellow;} */
+td:hover {background-color: red;}
